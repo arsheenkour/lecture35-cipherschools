@@ -1,0 +1,24 @@
+#include<iostream>
+#include<stack>
+using namespace std;
+int main()
+{
+	stack<int>a;
+	a.push(5);
+	a.push(6);
+	a.push(8);
+	cout<<a.top()<<endl;
+	a.pop();
+	cout<<a.top()<<endl;
+if (a.empty()==0)
+{
+	cout<<"the stack is currently not emwpty";
+}
+else
+{
+	cout<<"stack is empty";
+}
+a.pop();
+a.pop();
+	
+}
